@@ -1,0 +1,447 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #c0392b;
+  position: fixed;
+}
+.logo {
+  width: 30%;
+  float: left;
+  text-align: left;
+  line-height: 100px;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Pacifico';
+  color: white;
+  letter-spacing: 4px;
+}
+
+
+nav {
+  float: right;
+  line-height: 100px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: 'Poppins';
+  letter-spacing: 4px;
+  font-size: 20px;
+  color:white;
+  padding: 36px 10px;
+  margin: 0 1px;
+  font-weight: 500;
+
+}
+
+nav a:hover {
+  background-color: #d7e8fb;
+  color: black;
+  font-weight: 700;
+}
+
+.banner-area {
+  position: fixed;
+  background-image: url(../images/petadopthold.png);
+  background-size: cover;
+  background-position: center center;
+  top: 100px;
+  height: 100vh;
+  width: 100%
+}
+
+.banner-area:after {
+  content: "";
+  position:absolute;
+  top:0;
+  left:0;
+  display: block;
+  width:100%;
+  height: 100%;
+}
+
+.banner-area h2 {
+  padding-top: 8%;
+  font-size: 80px;
+  color: white; 
+}
+
+.content-area {
+  width: 100%;
+  height: 1700px;
+  align-items: center;
+  position: relative;
+  background-color: #d7e8fb;
+  top: 800px;
+}
+
+.content-area h2 {
+  font-size: 40px;
+  margin:0;
+  padding-top: 30px;
+  letter-spacing: 4px;
+  align-items: center;
+}
+
+.content-area p {
+  padding: 2% 0;
+  line-height: 30px;
+  text-align: center;
+  align-items: center;
+}
+
+/* start of code*/
+.petimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 250px;
+}
+
+/*********************************************************** style for form*/
+
+.wrapper {
+   width: 90%;
+   margin: 0 auto
+}
+
+header {
+   width: 100%;
+   height: 100px;
+   background-color: #c0392b;
+   position: fixed;
+}
+.logo {
+   width: 30%;
+   float: left;
+   text-align: left;
+   line-height: 100px;
+}
+
+.logo a {
+   text-decoration: none;
+   font-size: 20px;
+   font-family: 'Pacifico';
+   color: white;
+   letter-spacing: 4px;
+}
+
+/*---------------------------------------------*/
+a {
+   font-family: Ubuntu-Bold;
+   font-size: 14px;
+   line-height: 1.7;
+   color: #666666;
+   margin: 0px;
+   transition: all 0.4s;
+   -webkit-transition: all 0.4s;
+   -o-transition: all 0.4s;
+   -moz-transition: all 0.4s;
+}
+
+a:focus {
+   outline: none !important;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+
+.drop-content {
+   display: none;
+   position: absolute;
+   z-index: 1;
+   /* box-shadow: 0px 10px 15px 0px #ffffd2; */
+   min-width: 150px;
+   background-color: white;
+   color: #8f8f8e;
+}
+
+.drop-content a {
+   color: #929292;
+   padding: 10px 10px;
+   display: block;
+   font-size: 20px;
+}
+
+.drop-content a:hover {
+   background-color: #c0392b;
+   color: #C6A795;
+}
+
+.dropdown:hover .drop-content {
+   display: block;
+}
+
+
+/*---------------------------------------------*/
+
+ul, li {
+   margin: 0px;
+   list-style-type: none;
+}
+
+
+/*---------------------------------------------*/
+input {
+   outline: none;
+   border: none;
+}
+
+textarea {
+   outline: none;
+   border: none;
+}
+
+textarea:focus, input:focus {
+   border-color: transparent !important;
+}
+
+input::-webkit-input-placeholder { color: #bdbdd3;}
+input:-moz-placeholder { color: #bdbdd3;}
+input::-moz-placeholder { color: #bdbdd3;}
+input:-ms-input-placeholder { color: #bdbdd3;}
+
+textarea::-webkit-input-placeholder { color: #bdbdd3;}
+textarea:-moz-placeholder { color: #bdbdd3;}
+textarea::-moz-placeholder { color: #bdbdd3;}
+textarea:-ms-input-placeholder { color: #bdbdd3;}
+
+/*---------------------------------------------*/
+button {
+   outline: none !important;
+   border: none;
+   background: transparent;
+}
+
+button:hover {
+   cursor: pointer;
+}
+
+iframe {
+   border: none !important;
+}
+
+/*==========================================FORM==============================*/
+
+.RoomForm {
+  width: 40%;
+}
+
+/*---------------------------------------Input-------------------------------------*/
+
+.wrapinput {
+   width: 100%;
+   background-color: #EFD9CE;;
+   border-radius: 31px;
+   margin-bottom: 16px;
+   position: relative;
+   z-index: 1;
+}
+
+.contactinput {
+   position: relative;
+   display: block;
+   width: 100%;
+   background: #fff;
+   border-radius: 31px;
+   font-family: Ubuntu-Bold;
+   font-size: 18px;
+   color: #8f8fa1;
+   line-height: 1.2;
+}
+
+/*---------------------------------------------*/
+input.contactinput {
+   height: 45px;
+   padding: 0 35px 0 35px;
+   align-items: center;
+}
+
+textarea.contactinput {
+   min-height: 100px;
+   padding: 19px 35px 0 35px;
+}
+
+/*------------------------------------------------------------------
+[ Focus Input ]*/
+
+.focusINPUT {
+   display: block;
+   position: absolute;
+   z-index: -1;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 50%;
+   -webkit-transform: translateX(-50%);
+   -moz-transform: translateX(-50%);
+   -ms-transform: translateX(-50%);
+   -o-transform: translateX(-50%);
+   transform: translateX(-50%);
+   border-radius: 31px;
+   background-color: #fff;
+   pointer-events: none;
+   
+   -webkit-transition: all 0.4s;
+   -o-transition: all 0.4s;
+   -moz-transition: all 0.4s;
+   transition: all 0.4s;
+}
+
+.contactinput:focus + .focusINPUT {
+   width: calc(100% + 20px);
+}
+
+/*------------------------------------------------------------------
+[ Button ]*/
+button {
+   outline: none !important;
+   border: none;
+   background-color: #c0392b;
+   color: white;
+}
+
+button:hover {
+   background-color: #c0392b;
+   color: #f7f0f5;
+   cursor: pointer;
+}
+
+iframe {
+   border: none !important;
+}
+
+.container-contact100-form-btn {
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding-top: 10px;
+}
+
+.contact100-form-btn {
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0 20px;
+   min-width: 150px;
+   height: 62px;
+   border-radius: 31px;
+
+   font-family: Ubuntu-Bold;
+   font-size: 16px;
+   line-height: 1.2;
+   text-transform: uppercase;
+
+   -webkit-transition: all 0.4s;
+   -o-transition: all 0.4s;
+   -moz-transition: all 0.4s;
+   transition: all 0.4s;
+   position: relative;
+   z-index: 1;
+}
+
+.contact100-form-btn::before {
+   content: "";
+   display: block;
+   position: absolute;
+   z-index: -1;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 50%;
+   -webkit-transform: translateX(-50%);
+   -moz-transform: translateX(-50%);
+   -ms-transform: translateX(-50%);
+   -o-transform: translateX(-50%);
+   transform: translateX(-50%);
+   border-radius: 31px;
+   background-color: #c0392b;
+   pointer-events: none;
+   
+   -webkit-transition: all 0.4s;
+   -o-transition: all 0.4s;
+   -moz-transition: all 0.4s;
+   transition: all 0.4s;
+}
+
+.contact100-form-btn:hover:before {
+   background-color: #C42E1F;
+   width: calc(100% + 20px);
+}
+
+/*------------------------------------------------------------------*/
+
+
+.clear {
+   float: none;
+   clear: both;
+}
+
+.rating {
+   width: 90px;
+   unicode-bidi: bidi-override;
+   direction: rtl;
+   text-align: center;
+   position: relative;
+}
+
+.rating > label {
+   float: right;
+   display: inline;
+   padding: 10;
+   margin: 0;
+   position: relative;
+   width: 1.1em;
+   cursor: pointer;
+   color: #000;
+}
+
+.rating > label:hover,
+.rating > label:hover ~ label,
+.rating > input.radio-btn:checked ~ label {
+   color: transparent;
+}
+
+.rating > label:hover:before,
+.rating > label:hover ~ label:before,
+.rating > input.radio-btn:checked ~ label:before,
+.rating > input.radio-btn:checked ~ label:before {
+   content: "\2605";
+   position: absolute;
+   left: 0;
+   color: #BC96E6;
+}
+
+.hide {
+   display: none;
+}
+
+option[disabled]{ display: none; }

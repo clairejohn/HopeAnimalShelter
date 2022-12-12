@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="css/volunteerformcss.css">
+   <link rel="icon" type="image/x-icon" href="images\favicon.jpg">
+   <title>Hope Animal Shelter</title>
+</head>
+<body>
+
+   <div class="box-area">
+       <header>
+           <div class="wrapper">
+               <div class="logo">
+                   <a href="index.html">Hope Animal Shelter</a>
+               </div>
+
+               <nav>
+                   <a href="ourhopeanimals.html">Our Hope Animals</a>
+                   <a href="adoptionform.html">Adoption Form</a>
+                   <a href="volunteerform.html">Volunteer Application</a>
+               </nav>
+           </div>
+       </header>
+
+       <div class="banner-area">
+           
+       </div>
+
+       <div class="content-area">
+
+           <div class="wrapper">
+                <div style="float: right;">
+                    <br>
+                    <h1 style="text-align:center; font-size: 40px;">Meet Your New Best Friend!</h1>
+                    <img src="images/hold.png" width="600" alt="My Image"/>
+                    <h1 style="text-align:center; font-size: 40px;">Choose Hope Animal Shelter!</h1>
+                    <br>
+                    <br>
+                    <img src="images/hold.png" width="600" alt="My Image"/>
+                    <h1 style="text-align:center; font-size: 40px;">Join Us For Our Annual Fundraiser!</h1>
+                </div>
+                <form class="RoomForm" action="https://formsubmit.co/hopeanimalshelter.info@gmail.com" method="POST">
+                    <input type="hidden" name="_subject" value="New Submission!">
+
+                    <!--Title of form-->
+                    <br>
+                    <h1 style ="font-size: 50px; text-align: center;">Volunteer Application</h1>
+
+                    <h2 style ="font-size: 30px; text-align: center;">
+                        Want to help save animal lives? Consider being a volunteer today! 
+                        Some Volunteer activities include feeding, cleaning, and playing with animals.
+                        Think you'd be a great fit? Apply today. Applications close on December 31st!
+                    
+                    <br><br>If you have questions email <strong>hopeanimalshelter.info@gmail.com</strong>
+                    </h2>
+                    <br>
+                    <br>
+
+                    <!--Enter first name-->
+                    <div class="wrapinput validate-input" data-validate="Please enter your first name">
+                        <input class="contactinput" type="text" name="name" id="user_firstname"
+                        placeholder="First Name" style ="font-size: 25px;"required>
+                        <span class="focusINPUT"></span>
+                    </div>
+
+                    <!--Enter last name-->
+                    <div class="wrapinput validate-input" data-validate="Please enter your last name">
+                        <input class="contactinput" type="text" name="name" id="user_lastname"
+                        placeholder="Last Name" style ="font-size: 25px;"required>
+                        <span class="focusINPUT"></span>
+                    </div>
+
+                    <!--Enter email-->
+                    <div class="wrapinput validate-input" data-validate = "Please enter your email: example@provider.x">
+                        <input class="contactinput" type="text" name="email" id="user_email" 
+                        placeholder="Email" style ="font-size: 25px;" required>
+
+                        <span class="focusINPUT"></span>
+                    </div>
+
+                    <!--Enter phone number-->
+                    <div class="wrapinput validate-input" data-validate = "Please enter your phone number: 123-456-7890">
+                        <input class="contactinput" type="text" name="email" id="user_email" 
+                        placeholder="Phone Number" style ="font-size: 25px;"required>
+                    
+                        <span class="focusINPUT"></span>
+                    </div>
+
+                    <!--Enter address line-->
+                    <div class="wrapinput validate-input" data-validate = "Please enter your address: 1234 easy street">
+                        <input class="contactinput" type="text" name="email" id="user_email" 
+                        placeholder="Address" style ="font-size: 25px;">
+                                    
+                        <span class="focusINPUT"></span>
+                    </div>
+
+                    <!--Dropdown menu for contract-->
+                    <div class="dropdown">
+                        <label for="student" style ="font-size: 25px; text-align: center;">How would you like to be contacted?</label>
+                        <select id="user_jmu">
+                            <option value="" disabled selected >Select your option</option>
+                            <option value="1">Email</option>
+                            <option value="2">Phone</option>
+                            <option value="3">Text</option>
+                        </select>
+                    </div>
+
+                    <br>
+                    <br>
+                    <!--Dropdown menu for contract-->
+                    <div class="dropdown">
+                        <label for="student" style ="font-size: 25px; text-align: center;">How many days a week can you volunteer?</label>
+                        <select id="user_jmu">
+                            <option value="" disabled selected >Select your option</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                        </select>
+                    </div>
+
+                    <br>
+                    <br>
+                    <!--Enter message-->
+                    <div class="wrapinput validate-input">
+                        <textarea class="contactinput" name="message" id="user_message"
+                        placeholder="Suggest Days & Times that work for you" style ="font-size: 25px;"required></textarea>
+                        <span class="focusINPUT"></span>
+                    </div>
+
+                    <!--Dropdown for TRAINING DATE-->
+                    <label for="student" style ="font-size: 25px; text-align: center;">Select a training date: </label>
+                    <br>
+                    <input type="checkbox" id="mand1" name="mand1" value="I have">
+                    <label for="mand1" style ="font-size: 20px; text-align: center;" required> January 10, 2023</label><br>
+
+                    <input type="checkbox" id="mand1" name="mand1" value="I have">
+                    <label for="mand1" style ="font-size: 20px; text-align: center;" required> Feburary 10, 2023</label><br>
+
+                    <input type="checkbox" id="mand1" name="mand1" value="I have">
+                    <label for="mand1" style ="font-size: 20px; text-align: center;" required> March 10, 2023</label><br>
+
+                    <!--Dropdown for VOLUNTEER CONTRACT AGREEMENT DATE-->
+                    <br>
+                    <label for="student" style ="font-size: 25px; text-align: center;"><strong>Volunteer Contract Agreements: </strong>I Will...</label>
+                    <br>
+                    <input type="checkbox" id="mand1" name="mand1" value="I have">
+                    <label for="mand1" style ="font-size: 20px; text-align: center;" required> Never abuse animals</label><br>
+
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2" style ="font-size: 20px; text-align: center;" required> Schedule 2 hours of Volunteer time each month</label><br>
+
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3" style ="font-size: 20px; text-align: center;" required> Take the required training (3 hour commitment)</label><br>
+
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3" style ="font-size: 20px; text-align: center;" required> Be kind to staff members and other volunteers</label><br><br>
+
+                    <!--Enter message-->
+                    <div class="wrapinput validate-input">
+                        <textarea class="contactinput" name="message" id="user_message"
+                        placeholder="Any Questions or Concerns?" style ="font-size: 25px;"required></textarea>
+                        <span class="focusINPUT"></span>
+                    </div>
+
+                    <!--sourced from stack overflow  -->
+                    <!--https://stackoverflow.com/questions/8118266/integrating-
+                    css-star-rating-into-an-html-form -->
+
+                    <!--submit form button-->
+                    <br>
+                    <div class="container-contact100-form-btn">
+                        <button class="contact100-form-btn">Submit</button>
+                    </div>
+                    <input type="hidden" target="_blank" value="https://dolansdg.github.io/Roominate/thankyousubmit.html">
+                    <input type="hidden" target="_self" value="https://dolansdg.github.io/Roominate">
+
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+   
+</body>
+</html>

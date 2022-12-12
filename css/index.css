@@ -1,0 +1,217 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            text-align: center;
+        }
+        .wrapper {
+            width: 90%;
+            margin: 0 auto
+        }
+
+        header {
+            width: 100%;
+            height: 100px;
+            background-color: #c0392b;
+            position: fixed;
+        }
+        .logo {
+            width: 30%;
+            float: left;
+            text-align: left;
+            line-height: 100px;
+        }
+
+        .logo a {
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Pacifico';
+            color: white;
+            letter-spacing: 4px;
+        }
+
+        nav {
+            float: right;
+            line-height: 100px;
+        }
+
+        nav a {
+            text-decoration: none;
+            letter-spacing: 4px;
+            font-size: 20px;
+            color:white;
+            padding: 36px 10px;
+            margin: 0 1px;
+            font-weight: 500;
+
+        }
+
+        nav a:hover {
+            background-color: #d7e8fb;
+            color: black;
+            font-weight: 700;
+        }
+
+        .banner-area {
+            position: fixed;
+            background-image: url(../images/landphoto.png);
+            background-size: cover;
+            background-position: center center;
+            top: 100px;
+            height: 100vh;
+            width: 100%
+        }
+
+        .banner-area:after {
+            content: "";
+            position:absolute;
+            top:0;
+            left:0;
+            display: block;
+            width:100%;
+            height: 100%;
+        }
+
+        .banner-area h2 {
+            padding-top: 8%;
+            font-size: 80px;
+            color: white; 
+        }
+
+        .content-area {
+            width: 100%;
+            height: 3500px;
+            position: relative;
+            background-color: #d7e8fb;
+            top: 750px;
+        }
+
+        .content-area h2 {
+            font-size: 40px;
+            margin:0;
+            padding-top: 30px;
+            letter-spacing: 4px;
+        }
+
+        .content-area p {
+            padding: 2% 0;
+            line-height: 30px;
+            text-align: center;
+        }
+
+        /* start of code*/
+        .petimg{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+            height: 250px;
+        }
+
+        .cent {
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        .styled {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+            border: 0;
+            line-height: 2.5;
+            padding: 0 10px;
+            font-size: 20px;
+            text-align: center;
+            color: white;
+            text-shadow: 1px 1px 1px #000;
+            border-radius: 10px;
+            background-color: #c0392b;
+            background-image: linear-gradient(to top left,
+                                            rgba(0, 0, 0, .2),
+                                            rgba(0, 0, 0, .2) 30%,
+                                            rgba(0, 0, 0, 0));
+            box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                        inset -2px -2px 3px rgba(0, 0, 0, .6);
+        }
+
+        .styled:hover {
+            background-color: #C42E1F;
+        }
+
+        .styled:active {
+            box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                        inset 2px 2px 3px rgba(0, 0, 0, .6);
+        }
+
+        .table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+
+        td {
+            border: 1px solid #333;
+        }
+
+        thead,
+        tfoot {
+            background-color: #c0392b;
+            color: white;
+        }
+
+        .card {
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 40%;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(8, 6, 6, 0.2);
+        }
+
+        .container {
+            background-color: white;
+            padding: 7px 16px;
+            text-align: center;
+        }
+
+        /*Social Media Buttons*/
+        .fa {
+            padding: 10px;
+            font-size: 100px;
+            width: 15px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+        }
+  
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-youtube {
+            background: #bb0000;
+            color: white;
+            justify-content: center;
+
+        }
+  
+        .fa-instagram {
+            background: #07144E;
+            color: white;
+            justify-content: center;
+        }
+
+        .social {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 10px;
+        }

@@ -1,0 +1,56 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            text-align: center;
+            background-color: #d7e8fb;
+        }
+        .wrapper {
+            width: 90%;
+            margin: 0 auto
+        }
+
+        header {
+            width: 100%;
+            height: 100px;
+            background-color: #c0392b;
+            position: fixed;
+        }
+        .logo {
+            width: 30%;
+            float: left;
+            text-align: left;
+            line-height: 100px;
+        }
+
+        .logo a {
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Pacifico';
+            color: white;
+            letter-spacing: 4px;
+        }
+
+        nav {
+            float: right;
+            line-height: 100px;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-family: 'Poppins';
+            letter-spacing: 4px;
+            font-size: 20px;
+            color:white;
+            padding: 36px 10px;
+            margin: 0 1px;
+            font-weight: 500;
+
+        }
+
+        nav a:hover {
+            background-color: #d7e8fb;
+            color: black;
+            font-weight: 700;
+        }
